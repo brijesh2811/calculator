@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="website icon" type="png" href="./calculator.png">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="calculator">
+                <div class="input">
+                    <input type="tel" type="numberic" id="input" placeholder="">
+                </div>
+                <div class="number">
+                    <button id="c" class="c" onclick="cleardisplay()">C</button>
+                    <button id="bracket" class="bracket" onclick="addtodisplay('()')">()</button>
+                    <button id="par" class="par" onclick="addtodisplay('%')">%</button>
+                    <button id="divi" class="divi" onclick="addtodisplay('/')">/</button>
+                    <button id="seven" class="seven" onclick="addtodisplay('7')">7</button>
+                    <button id="eight" class="eight" onclick="addtodisplay('8')">8</button>
+                    <button id="nine" class="nine" onclick="addtodisplay('9')">9</button>
+                    <button id="multi" class="multi" onclick="addtodisplay('*')">*</button>
+                    <button id="four" class="four" onclick="addtodisplay('4')">4</button>
+                    <button id="five" class="five" onclick="addtodisplay('5')">5</button>
+                    <button id="six" class="six" onclick="addtodisplay('6')">6</button>
+                    <button id="sub" class="sub" onclick="addtodisplay('-')">-</button>
+                    <button id="one" class="one" onclick="addtodisplay('1')">1</button>
+                    <button id="two" class="two" onclick="addtodisplay('2')">2</button>
+                    <button id="three" class="three" onclick="addtodisplay('3')">3</button>
+                    <button id="sum" class="sum" onclick="addtodisplay('+')">+</button>
+                    <button id="sum-sub" class="sum-sub" onclick="addtodisplay('+/-')">+/-</button>
+                    <button id="zero" class="zero" onclick="addtodisplay('0')">0</button>
+                    <button id="dot" class="dot" onclick="addtodisplay('.')">.</button>
+                    <button id="equl" class="equl" onclick="calculator()">=</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>
